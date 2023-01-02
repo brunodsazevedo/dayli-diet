@@ -88,6 +88,8 @@ export const TypeText = styled.Text``;
 
 export const Footer = styled.View`
   padding: 8px 24px ${getBottomSpace() + 24}px;
+
+  background-color: ${({ theme }) => theme.COLORS.GRAY_100};
 `;
 
 export const TitleButtonPrimary = styled.Text`
